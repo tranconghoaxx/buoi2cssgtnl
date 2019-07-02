@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>buoi 1 html css</title>
+    <style>
+        h1{
+            text-align:center;
+        }
+        ul{
+            list-style-type:none;
+            background:green;
+            overflow:hidden;
+        }
+        li{
+            float:left;
+        }
+        li a{
+            color:orange;
+            margin:20px;
+            padding:20px;
+            text-decoration:none;
+        }
+        footer{
+            background:black;
+            text-align:center;
+            color:white;
+        }
+        .container{
+            margin:auto;
+            padding:0px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #FF0000;
+            background-color: #FFFF00;
+            border: 1px solid #0000FF;
+            width: 100px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1><u>Tran Cong Hoa</u></h1>
+        <ul>
+            <li style="float:right"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <br />
+        <sub>the sub 2h</sub>
+        <sup>the sup 30</sup>
+        <hr />
+
+        <div>
+            <img src="../images/image003_4.jpg" alt="photo nhat nghe" />
+        </div>
+
+        <audio controls="controls">
+            <source src="../media/bell.wav" type="audio/wav" />
+        </audio>
+
+        <video controls="controls" poster="../images/image003_4.jpg" autoplay="autoplay">
+            <source src="../media/trolly.mp4" type="video/mp4" />
+        </video>
+
+        <audio controls="controls">
+            <source src="../media/theowlnamedorion.ogg" type="audio/ogg" />
+        </audio>
+    </div>
+
+    /*nhung ne*/
+    <iframe width="789" height="444" src="https://www.youtube.com/embed/LSMDNL4n0kM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://tuoitre.vn" width="640" height="400"></iframe>
+
+    <fieldset>
+        <legend>Gio Tinh</legend>
+        <input type="radio" name="Gioi tinh" value="1" />Nam
+        <input type="radio" name="Gioi tinh" value="0" />Nu
+    </fieldset>
+    <fieldset>
+        Tong cong: 1234
+    </fieldset>
+    <footer>
+        &copy;Nhat Nghe 2019 <br />       a&nbsp;&nbsp; b//hien thi khoang trang
+    </footer>
+
+</body>
+</html>
